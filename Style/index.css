@@ -46,7 +46,6 @@
     width: 100%;
     height: 60px;
     color: #0D0E43;
-    background-color: #FFF6FB;
 }
 
 .navbar-wrapper {
@@ -165,10 +164,16 @@
     text-align: center;
     font-size: 17px;
     color: white;
-    background: #FB2E86;
+    background-color: #FB2E86;
     border-radius: 3px;
     border: 2px solid #E7E6EF;
     margin: 5px 0;
+}
+
+.banner-btn:hover {
+    color: #FB2E86;
+    background-color: #F2F0FF;
+    border: 2px solid #FB2E86;
 }
 
 .banner-right {
@@ -198,3 +203,95 @@
     top: -200px;
     left: 5px;
 }
+
+/* featured products style */
+.featured-products {
+    margin-top: 100px;
+    max-width: 1120px;
+    width: 100%;
+    height: 450px;
+    padding: 40px 0;
+    margin-bottom: 30px;
+}
+
+.featured {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.featured-title {
+    text-align: center;
+    color: #1A0B5B;
+    font-size: 42px;
+    line-height: 49px;
+}
+
+.featured-card {
+    width: 270px;
+    height: 361px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+}
+
+.featured-card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.featured-img-container {
+    /* position: relative; */
+    width: 270px;
+    height: 236px;
+    background: #F6F7FB;
+}
+
+.featured-img {
+    width: 216px;
+    height: 151px;
+    margin-top: 48px;
+    margin-left: 40px;
+}
+
+.featured-card-text {
+    margin-top: 15px;
+    color: #0D0E43;
+}
+
+.featured-card-text:hover {
+    background-color: #2F1AC4;
+    color: #FFFFFF;
+}
+
+.featured-card-title {
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FB2E86;
+    margin-bottom: 12px;
+}
+
+
+.featured-rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+}
+
+.featured-card-text p {
+    text-align: center;
+    margin: 8px 0;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/*  */
