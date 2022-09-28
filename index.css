@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+/* Header Style */
+.header {
+    width: 100%;
+    height: 44px;
+    color: #FFF6FB;
+    background-color: #7e33e0;
+
+}
+
+.header-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-phone {
+    display: flex;
+    gap: 8px;
+}
+
+.header-right-list Li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* Navbar Style */
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    color: #0D0E43;
+    background-color: #FFF6FB;
+}
+
+.navbar-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    color: #FB2E86;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.text-input {
+    box-sizing: border-box;
+    border: 2px solid #E7E6EF;
+    height: 40px;
+    width: 317px;
+}
+
+.input-btn {
+    background-color: #FB2E86;
+    border: 2px solid #E7E6EF;
+    height: 40px;
+    width: 51px;
+}
+
+/* Banner style */
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    background-color: #F2F0FF;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.lamp {
+    position: absolute;
+    left: -200px;
+    top: -100px;
+    height: 265px;
+    width: 265px;
+}
+
+.left-text1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FB2E86;
+    margin-bottom: 2px;
+}
+
+.heading1 {
+    font-family: 'Josefin Sans';
+    font-size: 53px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.left-text2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8A8FB9;
+    width: 559px;
+    height: 56px;
+    margin: 8px 0;
+}
+
+.banner-btn {
+    width: 163px;
+    height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    color: white;
+    background: #FB2E86;
+    border-radius: 3px;
+    border: 2px solid #E7E6EF;
+    margin: 5px 0;
+}
+
+.banner-right {
+    position: relative;
+}
+
+.eclipse {
+    position: absolute;
+    width: 398px;
+    height: 410px;
+    left: -340px;
+    top: -197px;
+}
+
+.chair {
+    position: absolute;
+    width: 399px;
+    height: 399px;
+    top: -194px;
+    left: -340px;
+    z-index: 5;
+}
+
+.offer {
+    position: absolute;
+    z-index: 10;
+    top: -200px;
+    left: 5px;
+}
